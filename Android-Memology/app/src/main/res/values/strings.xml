@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Memology</string>
+    <string name="memory_button_camera">TAKE PICTURE</string>
+    <string name="memory_button_reset">RESET GAME</string>
+</resources>

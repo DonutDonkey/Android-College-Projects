@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonMathPercent"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="148dp"
+        android:onClick="ButtonMathPercentOnClick"
+        android:text="@string/buttonMathPercent"
+        app:layout_constraintBottom_toTopOf="@+id/buttonMathMultiply"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonMath9"
+        app:layout_constraintTop_toBottomOf="@+id/editTextMathExpression" />
+
+    <Button
+        android:id="@+id/buttonMathMultiply"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="149dp"
+        android:layout_marginBottom="4dp"
+        android:onClick="ButtonMathMultiplyOnClick"
+        android:text="@string/buttonMathMultipy"
+        app:layout_constraintBottom_toTopOf="@+id/buttonMathDivide"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonMath6"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMathPercent" />
+
+    <Button
+        android:id="@+id/buttonMathDivide"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="149dp"
+        android:onClick="ButtonMathDivideOnClick"
+        android:text="@string/buttonMathDivide"
+        app:layout_constraintBottom_toTopOf="@+id/buttonMathMinus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonMath3"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMathMultiply" />
+
+    <Button
+        android:id="@+id/buttonMath8"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="18dp"
+        android:onClick="ButtonMath8OnClick"
+        android:text="@string/buttonMath8"
+        app:layout_constraintBottom_toTopOf="@+id/buttonMath5"
+        app:layout_constraintEnd_toStartOf="@+id/buttonMath9"
+        app:layout_constraintStart_toEndOf="@+id/buttonMath7"
+        app:layout_constraintTop_toBottomOf="@+id/editTextMathExpression" />
+
+    <Button
+        android:id="@+id/buttonMath7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="3dp"
+        android:onClick="ButtonMath7OnClick"
+        android:text="@string/buttonMath7"
+        app:layout_constraintBottom_toTopOf="@+id/buttonMath4"
+        app:layout_constraintEnd_toStartOf="@+id/buttonMath8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextMathExpression" />
+
+    <Button
+        android:id="@+id/buttonMath9"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="18dp"
+        android:onClick="ButtonMath9OnClick"
+        android:text="@string/buttonMath9"
+        app:layout_constraintBottom_toTopOf="@+id/buttonMath6"
+        app:layout_constraintEnd_toStartOf="@+id/buttonMathPercent"
+        app:layout_constraintStart_toEndOf="@+id/buttonMath8"
+        app:layout_constraintTop_toBottomOf="@+id/editTextMathExpression" />
+
+    <Button
+        android:id="@+id/buttonMath5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="4dp"
+        android:onClick="ButtonMath5OnClick"
+        android:text="@string/buttonMath5"
+        app:layout_constraintBottom_toTopOf="@+id/buttonMath2"
+        app:layout_constraintEnd_toStartOf="@+id/buttonMath6"
+        app:layout_constraintStart_toEndOf="@+id/buttonMath4"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMath8" />
+
+    <Button
+        android:id="@+id/buttonMath4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="4dp"
+        android:onClick="ButtonMath4OnClick"
+        android:text="@string/buttonMath4"
+        app:layout_constraintBottom_toTopOf="@+id/buttonMath1"
+        app:layout_constraintEnd_toStartOf="@+id/buttonMath5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMath7" />
+
+    <Button
+        android:id="@+id/buttonMath6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="4dp"
+        android:onClick="ButtonMath6OnClick"
+        android:text="@string/buttonMath6"
+        app:layout_constraintBottom_toTopOf="@+id/buttonMath3"
+        app:layout_constraintEnd_toStartOf="@+id/buttonMathMultiply"
+        app:layout_constraintStart_toEndOf="@+id/buttonMath5"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMath9" />
+
+    <Button
+        android:id="@+id/buttonResult"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="sendResult"
+        android:text="@string/mainResultButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextMathExpression"
+        android:layout_width="325dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="356dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/buttonClearHistory"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="ClearHistory"
+        android:text="@string/buttonClearHistory"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/buttonResult"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonMath1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="3dp"
+        android:onClick="ButtonMath1OnClick"
+        android:text="@string/buttonMath1"
+        app:layout_constraintBottom_toTopOf="@+id/buttonMath0"
+        app:layout_constraintEnd_toStartOf="@+id/buttonMath2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMath4" />
+
+    <Button
+        android:id="@+id/buttonMath0"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="65dp"
+        android:onClick="ButtonMath0OnClick"
+        android:text="@string/buttonMath0"
+        app:layout_constraintBottom_toTopOf="@+id/buttonResult"
+        app:layout_constraintEnd_toStartOf="@+id/buttonMathDot"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMath1" />
+
+    <Button
+        android:id="@+id/buttonMathDot"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="65dp"
+        android:onClick="ButtonMathDotOnClick"
+        android:text="@string/buttonMathDot"
+        app:layout_constraintBottom_toTopOf="@+id/buttonResult"
+        app:layout_constraintEnd_toStartOf="@+id/buttonMathPlus"
+        app:layout_constraintStart_toEndOf="@+id/buttonMath0"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMath2" />
+
+    <Button
+        android:id="@+id/buttonMathPlus"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="65dp"
+        android:onClick="ButtonMathPlusOnClick"
+        android:text="@string/buttonMathPlus"
+        app:layout_constraintBottom_toTopOf="@+id/buttonResult"
+        app:layout_constraintEnd_toStartOf="@+id/buttonMathMinus"
+        app:layout_constraintStart_toEndOf="@+id/buttonMathDot"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMath3" />
+
+    <Button
+        android:id="@+id/buttonMathMinus"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="149dp"
+        android:layout_marginBottom="65dp"
+        android:onClick="ButtonMathMinusOnClick"
+        android:text="@string/buttonMathMinus"
+        app:layout_constraintBottom_toTopOf="@+id/buttonClearHistory"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonMathPlus"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMathDivide" />
+
+    <Button
+        android:id="@+id/buttonMathMinus7"
+        android:layout_width="109dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="65dp"
+        android:onClick="ButtonMathClearOnClick"
+        android:text="@string/buttonMathClear"
+        app:layout_constraintBottom_toTopOf="@+id/buttonClearHistory"
+        app:layout_constraintStart_toEndOf="@+id/buttonMathPlus"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMathDivide"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/buttonMath2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="4dp"
+        android:onClick="ButtonMath2OnClick"
+        android:text="@string/buttonMath2"
+        app:layout_constraintBottom_toTopOf="@+id/buttonMathDot"
+        app:layout_constraintEnd_toStartOf="@+id/buttonMath3"
+        app:layout_constraintStart_toEndOf="@+id/buttonMath1"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMath5" />
+
+    <Button
+        android:id="@+id/buttonMath3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="4dp"
+        android:onClick="ButtonMath3OnClick"
+        android:text="@string/buttonMath3"
+        app:layout_constraintBottom_toTopOf="@+id/buttonMathPlus"
+        app:layout_constraintEnd_toStartOf="@+id/buttonMathDivide"
+        app:layout_constraintStart_toEndOf="@+id/buttonMath2"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMath6" />
+
+</android.support.constraint.ConstraintLayout>

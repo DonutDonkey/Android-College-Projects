@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Calculatored</string>
+    <string name="mainResultButton">Result</string>
+    <string name="buttonClearHistory">CLEAR HISTORY</string>
+    <string name="buttonMath1">1</string>
+    <string name="buttonMath2">2</string>
+    <string name="buttonMath3">3</string>
+    <string name="buttonMath4">4</string>
+    <string name="buttonMath5">5</string>
+    <string name="buttonMath6">6</string>
+    <string name="buttonMath7">7</string>
+    <string name="buttonMath8">8</string>
+    <string name="buttonMath9">9</string>
+    <string name="buttonMath0">0</string>
+    <string name="buttonMathDot">.</string>
+    <string name="buttonMathPlus">+</string>
+    <string name="buttonMathMinus">-</string>
+    <string name="buttonMathMultipy">*</string>
+    <string name="buttonMathDivide">/</string>
+    <string name="buttonMathPercent">%</string>
+    <string name="buttonMathClear">CLEAR</string>
+</resources>
